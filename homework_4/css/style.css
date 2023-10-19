@@ -1,0 +1,88 @@
+@import url(reset.css);
+
+*{
+	color: rgb(193, 193, 193);
+}
+
+a{
+	color: rgb(75, 0, 0);
+}
+
+h1{
+	color: rgb(255, 0, 0);
+}
+
+h3,h5{
+	color: rgb(255, 89, 0);
+}
+
+h4{
+	color: rgb(0, 172, 11);
+}
+
+li{
+	color: rgb(0, 155, 36);
+}
+
+
+mark{
+	color: rgb(255, 255, 255);
+}
+
+span{
+	color: rgb(255, 0, 0);
+}
+
+.text {
+	color: blue;
+}
+
+.social-networks {
+	color: rgb(169, 2, 49);
+}
+
+#olga_opanasenko{
+	color: rgb(208, 213, 67);
+}
+
+.social-networks.article-title{
+	color: rgb(49, 105, 72);
+}
+div.description{
+	color: rgb(137, 255, 198);
+}
+
+.article-blok,
+.intro{
+	color: rgb(0, 113, 105);
+}
+
+.article-blok p{
+	color: rgb(152, 179, 0);
+}
+
+.article-title .intro{
+	color: rgb(57, 0, 58);
+}
+
+.description *{
+	color: chocolate;
+}
+
+.article-blok>a p{
+	color: rgb(255, 16, 16);
+}
+
+
+.intro ~ p{
+	color: rgb(90, 58, 90);
+}
+
+.intro + p{
+	color: hotpink;
+}
+
+
+[class*="blok"]>h2{
+	color: lime;
+}
