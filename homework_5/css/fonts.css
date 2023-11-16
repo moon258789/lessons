@@ -1,0 +1,43 @@
+@font-face {
+	font-family: "SamoSansPro";
+	src: 
+		url("../fonts/SamoSansPro-Regular.woff") format("woff"),
+		url("../fonts/SamoSansPro-Regular.woff2") format("woff2");
+
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SamoSansPro";
+	src: 
+		url("../fonts/SamoSansPro-Light.woff") format("woff"),
+		url("../fonts/SamoSansPro-Light.woff2") format("woff2");
+
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SamoSansPro";
+	src: 
+		url("../fonts/SamoSansPro-Black.woff") format("woff"),
+		url("../fonts/SamoSansPro-Black.woff2") format("woff2");
+
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "JungleHype";
+	src: 
+		url("../fonts/JungleHypeRegular.woff") format("woff"),
+		url("../fonts/JungleHypeRegular.woff2") format("woff2");
+
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
