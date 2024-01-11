@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Inter:wght@100;200;400&display=swap');
+
+@import url(fonts.css);
+@import url(reset.css);
+
+body {
+	font-family: 'Inter', sans-serif;
+   font-size: 18px;
+   color: #474747;
+   background-color: #ffffff;
+	min-width: 692px;
+}
+
+.header-content{
+	background-color: #433a36;
+	height: 60px;
+}
+
+.logo{
+	display: inline-block;
+	font-family: SamoSansPro, sans-serif;
+	font-size: 38px;
+	color: #b7b7b7;
+}
+
+.navigation{
+	text-align: center;
+}
+
+.navigation-list li{
+	font-family: SamoSansPro, serif;
+	color: #917f7f;
+	display: inline-block;
+	margin: 0 45px;
+}
+
+.outer-container{
+	max-width: 692px;
+	margin: 150px auto 20px auto;
+}
+
+.inner-container{
+	margin: 37px 0 40px 0;
+	color: #7D7D7D;
+	font-family: Inter, sans-serif;
+	font-weight: 400;
+	line-height: 1.46;
+}
+
+h2,h4,h3{
+	color: #37393F;
+	font-family: Poppins, sans-serif;
+	line-height: 1.27;
+	font-weight: 600;
+}
+
+h2{
+	margin-bottom: 3px;
+	font-size: 30px;
+}
+
+h4{
+	margin: 42px 0 12px 0;
+	color: #6B77E5;
+	font-size: 20px;
+}
+
+.benefits-block h4{
+	color: #40DDB6;
+	margin: 0;
+}
+
+h3{
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+.plant-image{
+	margin-right: 29px;
+	width: 302px;
+}
+
+
+.benefits-block{
+	display: inline-block;
+	max-width: 332px;
+	margin-bottom: 15px;
+}
+
+.benefits-list{
+	margin-top: 21px;
+}
+
+.benefits-list li{
+	margin-bottom: 30px;
+}
+
+.section-two{
+	background: #FFF9F4;
+	padding: 140px 0;
+	font-size: 0;
+
+}
+.main-section{
+	margin: 0 auto;
+	max-width: 1169px;
+}
+
+.content-section{
+	max-width: 563px;
+	margin-right: 38px;
+	display: inline-block;
+}
+
+.service-title{
+	color: #D06B00;
+	font-size: 28px;
+}
+
+.service-subtitle{
+	color: #0E333D;
+	font-family: 'DM Serif Text', sans-serif;
+	font-size: 59px;
+	line-height: 1.46;
+}
+
+.service-description{
+	font-size: 20px;
+	line-height: 1.8;
+}
+
+.image-container{
+	display: inline-block;
+   vertical-align: top;
+}
+
+.image-rectangle{
+	margin-right: 22px;
+}
+
+#examples h3{
+	font-size: 30px;
+	line-height: 1.46;
+	text-align: center;
+}
+
+[class*="overflow"]{
+	max-height: 80px;
+	margin: 65px auto;
+	width: 80%;
+}
+
+.overflow-visible{
+	background: #D24136;
+	overflow: visible;
+	color: #ebb582;
+}
+
+.overflow-hidden{
+	background: #EB8A3E;
+	overflow: hidden;
+	color: #ebb582;
+	min-height: 20px;
+}
+
+.overflow-scroll{
+	background: #785A46;
+	overflow: scroll;
+	color: #ebb582;
+}
+
+.footer-content{
+	padding-top: 25px;
+	background-color: #433a36;
+	height: 160px;
+	font-family: SamoSansPro, sans-serif;
+	font-weight: 900;
+	color: #917f7f;
+	text-align: center;
+}
+
+.contact-info p{
+	margin-top: 25px;
+}
