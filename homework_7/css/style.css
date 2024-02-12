@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@700&display=swap');
+
+@import url(fonts.css);
+@import url(reset.css);
+
+body {
+	font-family: 'Inter', sans-serif;
+   font-size: 18px;
+   color: #7D7D7D;;
+   background-color: #ffffff;
+	line-height: 1.46;
+}
+
+
+
+
+.header-content{
+	background-color: #433a36;
+	margin-bottom: 150px;
+	font-family: 'Cormorant Infant', serif;
+}
+
+.logo{
+	display: inline-block;
+	margin-left: 55px;
+	font-size: 48px;
+	color: #b7b7b7;
+}
+
+.navigation{
+	text-align: center;
+}
+
+.navigation-list li{
+	color: #917f7f;
+	display: inline-block;
+	margin: 0 55px;
+	font-size: 28px;
+	letter-spacing: 3px;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* <!-- Part1_Licencing_Start --> */
+
+.main-first{
+	margin:0  auto 150.5px;
+	padding: 0 15px;
+   max-width: 1248px;
+}
+
+.title-first{
+margin-bottom: 70px;
+text-align: center;
+}
+
+.subtitle-first span {
+	display: inline-block;
+	background-color: #40ddb6;
+	width: 12px;
+	height: 12px;
+	margin-right: 6px;
+}
+
+.subtitle-first{
+	line-height: normal;
+	font-weight: 500;
+	margin-bottom: 16px;
+	color: #37393F;
+}
+
+h1,h2,h3{
+	font-family: 'Poppins', sans-serif;
+	color: #37393F;
+	font-weight: 700;
+}
+
+h1{
+	font-size: 60px;
+	line-height: 1.21;
+}
+
+h2{
+	font-size: 40px;
+	line-height: 1.21;
+	margin-bottom: 11px;
+}
+
+h3{
+	font-size: 30px;
+	line-height: normal;
+	margin-bottom: 8px;
+}
+
+.title-graphics{
+	margin-bottom: 32px;
+}
+
+.title-photography, .block-photography{
+	margin-bottom: 24px;
+}
+
+.license, .text-photography {
+	color: #40DDB6;
+font-weight: 400;
+}
+
+.section-graphics, .section-photography{
+	margin-bottom: 100px;
+}
+
+.color-action{
+	color: #40DDB6;
+	font-weight: 500;
+}
+
+.no-margin{
+	margin-bottom: 0 !important;
+}
+
+/* <!-- Part1_Licencing_End --> */
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* <!-- Part2_Project Information_Start --> */
+
+.main-second{
+	margin: 0 auto 50px;
+	padding: 0 15px;
+   max-width: 860px;
+}
+
+.title-second h2{
+	line-height: 1.27;
+	margin-bottom: 13px;
+}
+
+.main-second ul, .main-second ol{
+	font-weight: 500;
+	padding-left: 16px;
+}
+
+.text-second > p{
+	margin-bottom: 30px;
+}
+
+.section-second{
+	margin-bottom: 35px;
+}
+
+.marker-ul span{
+	display: inline-block;
+	background-color: #7d7d7d;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	margin:0 11px 0 9px;
+	vertical-align: middle;
+}
+
+.section-second li{
+	margin-bottom: 30px;
+}
+
+/* <!-- Part2_Project Information_End --> */
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* <!-- Part3_Clothing for Women Online in India_Start --> */
+
+.main-third {
+	margin: 0 auto 100px;
+	padding: 0 21px;
+   max-width: 1282px;
+}
+
+.content-third{
+	font-family: 'Causten', sans-serif;
+	font-size: 20px;
+	color: rgb(128, 125, 126);
+	letter-spacing: 0.4px;
+	line-height: 1.675;
+}
+
+h4{
+	color: rgb(60, 66, 66);
+	font-size: 28px;
+	line-height: 1.196;
+	letter-spacing: 0.56px;
+}
+
+h4, h5{
+	font-family: 'CoreSansC', sans-serif;
+	font-weight: 600;
+}
+
+.section-third p{
+	margin-bottom: 20px;
+}
+
+.block-reexplore{
+	margin-bottom: 25px;
+}
+
+.block-destination{
+	margin-bottom: 20px;
+}
+
+h5{
+	margin-bottom: 25px;
+}
+
+.decor-third{
+	display: inline-block;
+   width: 6px;
+   height: 28px;
+   border-radius: 10px;
+   background: #8a33fd;
+   margin-right: 15px;
+   vertical-align: middle;
+	margin-left: -21px;
+}
+
+.title-third{
+	margin-bottom: 30px;
+}
+
+/* <!-- Part3_Clothing for Women Online in India_End --> */
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* <!-- Part4_We Develop Create Custom Jewels._Start --> */
+
+.main-fourth {
+	padding: 0 15px;
+	max-width: 1133px;
+	margin: 0 auto 280px;
+	font-size: 0;
+}
+
+h6{
+	color: rgb(0, 0, 0);
+	font-size: 64px;
+	line-height: 1;
+}
+
+[class*="picture"], .content-fourth{
+	display: inline-block;
+}
+
+.content-fourth{
+	color: rgb(96, 96, 96);
+	font-family: 'Cormorant Infant',serif;
+	font-weight: 700;
+	line-height: 1.4;
+	max-width: 503px;
+	padding: 70px 0 76px;
+	margin-right: 75px;
+	vertical-align: middle;
+}
+
+.title-fourth{
+	margin-bottom: 31px;
+}
+
+.section-fourth{
+	font-size: 30px;
+	max-width: 489px;
+}
+
+.title-fourth p{
+	color: rgb(213, 132, 23);
+	font-size: 20px;
+	line-height: 1;
+	margin-bottom: 27px;
+}
+
+.picture-fourth{
+	vertical-align: top;
+}
+
+.picture-small {
+	width: 177px;
+	height: 336px;
+	margin-right: 30px;
+	vertical-align: middle;
+	border: 1px solid rgb(80, 34, 3);
+	border-radius: 235px;
+}
+
+.picture-small img{
+	vertical-align: top;
+	padding-top: 14px;
+	margin-left: -10px;
+	border-radius: 235px;
+}
+
+.picture-big {
+	width: 307px;
+	height: 500px;
+	vertical-align: middle;
+	border: 1px solid rgb(80, 34, 3);
+	border-radius: 235px;
+}
+
+.picture-big img{
+	border-radius: 235px;
+	padding-top: 19px;
+	margin-left: -11px;
+	vertical-align: top;
+}
+
+/* <!-- Part4_We Develop Create Custom Jewels._End --> */
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* <!-- Part5_Examples._Start --> */
+
+.main-fifth {
+	padding: 0 15px;
+	max-width: 800px;
+	margin: 0  auto 80px;
+	line-height: 1.9;
+}
+.title-fifth{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+
+
+.block-fifth, .block-fifth p{
+	margin-bottom: 60px;
+}
+
+
+.border-style p, .border-style span{
+	background-color: #d1ffd1;
+		border-right: 3px solid rgba(119, 59, 59, 0.585);
+		border-top: 4px dotted rgb(7, 7, 55);
+		border-bottom: 5px double rgb(58, 79, 78);
+		border-left: 7px dashed rgba(255, 255, 0, 0.432);
+}
+
+
+
+.border-outline p, .border-outline span{
+	background-color: #d1ffd1;
+	border: 1px solid #000000;
+	outline: 7px solid rgba(0, 198, 162, 0.73);
+}
+
+.border-circle{
+	display: inline-block;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;;
+	background-color: #3b439f7e;
+	box-shadow: inset 17px -13px 5.6px #32398e;
+}
+
+.border-radius{
+	display: inline-block;
+	border-radius: 38% 62% 29% 71% / 77% 21% 79% 23% ;
+	width: 450px;
+	height: 300px;
+	background-color: #96321a;
+	box-shadow: 
+	inset 47.4px 45.2px 3.6px rgba(0, 0, 0, 0.773),
+   9.4px 66.1px 10px rgba(222, 110, 110, 0.255),
+   inset 8.7px 84.6px 24.1px rgba(86, 19, 19, 0.284),
+   50px 143px 80px rgba(0, 0, 0, 0.31);
+}
+
+.border-fancy{
+	display: inline-block;
+	border-radius: 38% 62% 47% 53% / 33% 67% 33% 67%;
+	width: 200px;
+	height: 200px;
+	background-color: #32992c;
+	box-shadow: 17px 4px 5.6px rgb(0, 0, 0);
+}
+
+.block-visibility{
+	background-color: #d1ffd1;
+	visibility: hidden;
+}
+
+.block-opacity p{
+	background-color: #d1ffd1;
+	opacity: 0.8;
+}
+
+.block-opacity span{
+	background-color: #d1ffd1;
+	opacity: 0.5;
+}
+
+.block-shadow p, .block-shadow span{
+	box-shadow: inset 17px -13px 5.6px rgba(0, 0, 0, 0.115);
+}
+
+.block-shadows{
+box-shadow:  47.4px 45.2px 3.6px rgba(0, 0, 0, 0.209),
+	69.4px 66.1px 10px rgba(0, 0, 0, 0.255),
+	inset 88.7px 84.6px 24.1px rgba(0, 0, 0, 0.284),
+	150px 143px 80px rgba(0, 0, 0, 0.31);
+}
+/* <!-- Part5_Examples._End --> */
+
+
+
+.footer-content{
+	padding-top: 15px;
+	background-color: #433a36;
+	color: #917f7f;
+	text-align: center;
+	min-height: 100px;
+}
+
+.contact-info a{
+	display: block;
+	margin-bottom: 15px;
+}
