@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@700&display=swap');
+
+@import url(fonts.css);
+@import url(reset.css);
+
+body {
+	font-family: 'Inter', sans-serif;
+   font-size: 18px;
+   color: #7D7D7D;;
+   background-color: #ffffff;
+	line-height: 1.46;
+}
+
+
+.no-margin{
+	margin-bottom: 0 !important;
+}
+
+.header-content{
+	background-color: #433a36;
+	margin-bottom: 150px;
+	font-family: 'Cormorant Infant', serif;
+}
+
+.logo{
+	display: inline-block;
+	margin-left: 55px;
+	font-size: 48px;
+	color: #b7b7b7;
+}
+
+.navigation{
+	text-align: center;
+}
+
+.navigation-list li{
+	color: #917f7f;
+	display: inline-block;
+	margin: 0 55px;
+	font-size: 28px;
+	letter-spacing: 3px;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* <!-- Part1_Business Plan_Start --> */
+
+.main-first{
+	margin: 0 auto 145px;
+	padding: 0 15px;
+   max-width: 703px;
+}
+
+.title-first {
+	max-width: 414px;
+	margin-bottom: 20px;
+
+}
+
+.subtitle-first{
+		margin-bottom: 16px;
+}
+
+.subtitle-first, .subtitle-second{
+	font-weight: 500;
+	background: url("../img/first-subtitle-box.png") no-repeat 0 5px;
+	padding-left: 18px;
+	color: #37393f;
+	line-height: 1.21;
+}
+
+h2{
+font-family: "Poppins", sans-serif;
+font-size: 40px;
+font-weight: 700;
+color: #37393f;
+line-height: 1.21;
+}
+
+
+.content-first p:not(:last-child){
+	margin-bottom: 15px;
+}
+.content-first{
+	margin-bottom: 20px;
+}
+
+.block-first li:not(:last-child){
+margin-bottom: 23px;
+}
+
+.block-first li{
+	color: #37393f;
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	line-height: 1.65;
+	padding-left: 35px;
+	background: url("../img/block-first-vector.svg") no-repeat 0 5px;
+}
+
+.block-first {
+	margin-bottom: 43px;
+}
+
+
+.section-first{
+	margin-bottom: 37px;
+	font-size: 0;
+}
+.subsection-first{
+	display: inline-block;
+	max-width: 298px;
+	border: 1px solid rgb(227, 227, 227);
+}
+
+.subsection-experience{
+	padding: 32px;
+	margin-right: 21px;
+}
+
+.subsection-awards{
+	padding: 31px 37px 32px 37px;
+}
+
+.box-one{
+	padding-left: 58px;
+	background: url("../img/box-one-icon.svg") no-repeat;
+}
+
+.box-two{
+	background: url("../img/box-two-icon.svg") no-repeat;
+	padding-left: 58px;
+}
+
+[class*="box-"] p{
+font-size: 16px;
+line-height: 1.35;
+}
+
+h3{
+	color: #37393f;
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.5;
+}
+
+
+.button-first {
+	display: inline-block;
+	padding: 22px 27px;
+	background: #6b77e5;
+	color: #ffffff;
+	font-weight: 600;
+	line-height: 1.22;
+	text-align: center;
+}
+
+/* <!-- Part1_Business Plan_End --> */
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* <!-- Part2_Latest Projects_Start --> */
+
+.main-second{
+	margin: 0 auto 150px;
+	padding: 0 15px;
+   max-width: 1250px;
+}
+
+.subtitle-second{
+	display: inline-block;
+}
+
+.content-second{
+	text-align: center;
+	max-width: 852px;
+	margin: 0 184px 47px;
+}
+.title-second, .subtitle-second{
+	margin-bottom: 14px;
+}
+
+
+.section-second {
+	font-size: 0;
+}
+.subsection-project:not(:last-child){
+	margin-bottom: 58px;
+}
+
+.subsection-project >*:not(:last-child){
+	margin-right: 34px;
+}
+.block-project {
+	display: inline-block;
+	min-width: 384px;
+}
+
+.block-project h3{
+	line-height: 1.27;
+}
+
+.item-img {
+	min-height: 501px;
+	margin-bottom: 24px;
+}
+
+.img-financial{
+	background: url("../img/item-img-financial.svg") no-repeat;
+}
+.img-marketing{
+	background: url("../img/item-img-marketing.svg") no-repeat;
+}
+
+.img-business{
+	background: url("../img/item-img-business.svg") no-repeat;
+}
+
+.item-date {
+	font-size: 14px;
+	padding-left: 25px;
+	background: url("../img/item-date.svg") no-repeat;
+}
+
+.img-financial-two{
+	background: url("../img/item-img-financial-two.svg") no-repeat;
+}
+
+.img-web{
+	background: url("../img/item-img-web.svg") no-repeat;
+}
+
+.img-financial-tree{
+	background: url("../img/item-img-financial-tree.svg") no-repeat;
+}
+/* <!-- Part2_Latest Projects_End --> */
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* <!-- Part3_Clothing for Women Online in India_Start --> */
+
+.main-third {
+	margin: 0 auto 100px;
+	padding: 0 21px;
+   max-width: 1282px;
+	background: url("../img/rectangle-21.svg") no-repeat;
+}
+
+.content-third{
+	font-family: 'Causten', sans-serif;
+	font-size: 20px;
+	color: rgb(128, 125, 126);
+	letter-spacing: 0.4px;
+	line-height: 1.675;
+}
+
+h4{
+	color: rgb(60, 66, 66);
+	font-size: 28px;
+	line-height: 1.1;
+	letter-spacing: 0.56px;
+}
+
+h4, h5{
+	font-family: 'CoreSansC', sans-serif;
+	font-weight: 600;
+}
+
+.section-third p{
+	margin-bottom: 20px;
+}
+
+
+.block-reexplore{
+	margin-bottom: 25px;
+}
+
+.block-destination{
+	margin-bottom: 20px;
+}
+
+h5{
+	margin-bottom: 25px;
+}
+
+.title-third{
+	margin-bottom: 30px;
+}
+
+/* <!-- Part3_Clothing for Women Online in India_End --> */
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* <!-- Part4_We Develop Create Custom Jewels._Start --> */
+
+.main-fourth {
+	margin: 0 auto 100px;
+	max-width: 1240px;
+	padding-left: 74px;
+	min-height: 640px;
+	background: url("../img/unsplash.png") no-repeat 0 0 / 614px 100%, url("../img/Rectangle13.png") no-repeat right top / 626px 100%;
+	line-height: 640px;
+}
+
+
+.content-fourth{
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 466px;
+	color: #ffffff;
+	font-family: 'Causten', sans-serif;
+	line-height: normal;
+}
+
+h6{
+	font-family: 'CoreSansC', sans-serif;
+	font-size: 34px;
+	font-weight: 800;
+	line-height: 1.24;
+	letter-spacing: 0.21px;
+	margin-bottom: 30px;
+}
+
+.content-fourth p{
+	max-width: 451px;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.2;
+	letter-spacing: 1px;
+	margin-bottom: 50px;
+}
+
+.button-fourth{
+	border-radius: 8px;
+	background: #ffffff;
+	padding: 12px 44px;
+	display: inline-block;
+	color: #3c4242;
+	font-weight: 600;
+	line-height: 1.2;
+	text-align: center;
+}
+
+/* <!-- Part4_We Develop Create Custom Jewels._End --> */
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* <!-- Part5_Examples._Start --> */
+
+.main-fifth {
+	padding: 0 15px;
+	max-width: 800px;
+	margin: 0  auto;
+	line-height: 1.9;
+	color: rgb(57, 87, 0);
+}
+.title-fifth{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+
+
+.block-fifth, .block-fifth p {
+	margin-bottom: 60px;
+}
+
+.bg-image{
+	max-height: 100px;
+	overflow: scroll;
+	background-image: url("../img/Rectangle13.png");
+	background-size: auto 200px;
+	background-repeat: repeat-x;
+	background-attachment: scroll;
+}
+
+
+.bg-lgradient{
+	background: linear-gradient(90deg, rgba(43,3,3,1) 3%, rgba(122,12,100,0.8800770308123249) 43%, rgba(28,130,150,1) 89%);
+}
+
+.bg-rgradient{
+	background: radial-gradient(circle, rgba(125,41,63,1) 9%, rgba(17,45,78,1) 100%);
+}
+
+.bg-contain{
+	background: url("../img/vector.png") 0 0 / contain repeat-y;
+}
+
+.bg-fixed{
+	background: url("../img//vector.png") center no-repeat, url("../img/patern.svg") 0 0/cover;
+	background-attachment: fixed;
+	background-size: auto 400px;
+}
+
+/* <!-- Part5_Examples._End --> */
+
+
+
+.footer-content{
+	padding-top: 15px;
+	background-color: #433a36;
+	color: #917f7f;
+	text-align: center;
+	min-height: 100px;
+}
+
+.contact-info a{
+	display: block;
+	margin-bottom: 15px;
+}
